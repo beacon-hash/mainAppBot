@@ -4,7 +4,8 @@ from selenium.common.exceptions import TimeoutException
 from helper.helper import Helper 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-import csv 
+import csv
+from sys import exit 
 import os
 import timeit
 from selenium.common.exceptions import UnexpectedAlertPresentException
